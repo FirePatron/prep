@@ -1,0 +1,7 @@
+D:\Java\Pipe\PipeNetSrv\PipeNetSrv\obj\Debug\PipeNetSrv.csprojAssemblyReference.cache
+D:\Java\Pipe\PipeNetSrv\PipeNetSrv\obj\Debug\PipeNetSrv.csproj.CoreCompileInputs.cache
+D:\Java\Pipe\PipeNetSrv\PipeNetSrv\bin\Debug\PipeNetSrv.exe.config
+D:\Java\Pipe\PipeNetSrv\PipeNetSrv\bin\Debug\PipeNetSrv.exe
+D:\Java\Pipe\PipeNetSrv\PipeNetSrv\bin\Debug\PipeNetSrv.pdb
+D:\Java\Pipe\PipeNetSrv\PipeNetSrv\obj\Debug\PipeNetSrv.exe
+D:\Java\Pipe\PipeNetSrv\PipeNetSrv\obj\Debug\PipeNetSrv.pdb

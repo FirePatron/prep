@@ -1,0 +1,25 @@
+ timer = new Timer(5000, new ActionListener() {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            while(presentDay <= numberOfDays){
+                jTextField2.setText(Integer.toString(presentDay));
+                for(; presentTime <= 18; presentTime++){
+                    jTextField6.setText(Integer.toString(presentTime));
+
+                    StringBuilder res = new StringBuilder();
+
+                    for(Event ev: schedule[presentDay-1].day){
+                        if((presentTime <= ev.getTimeFinish()) && (presentTime >= ev.getTimeStart())){
+                            res.append(ev);
+                            ev.setStatus(1);
+                        }
+                    }
+                    currentEvent.setText(res.toString());
+                    // Pause here
+                }
+                presentTime = 9;
+                presentDay++;
+            }
+        }
+    });
